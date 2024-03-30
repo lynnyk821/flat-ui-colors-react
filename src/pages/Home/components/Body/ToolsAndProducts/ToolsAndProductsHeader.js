@@ -7,7 +7,8 @@ export const ToolsAndProductsHeader = () => {
             </p>
             <a
                 className="w-1/5 h-full flex justify-end items-center text-lg font-medium"
-                href="https://twitter.com/ahmetsulek">by @ahmetsulek</a>
+                href="https://twitter.com/ahmetsulek">by @ahmetsulek
+            </a>
         </div>
     );
 }

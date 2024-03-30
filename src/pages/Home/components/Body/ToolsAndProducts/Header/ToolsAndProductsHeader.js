@@ -1,6 +1,6 @@
 export const ToolsAndProductsHeader = () => {
     return (
-        <div className="w-full h-24 flex text-white">
+        <div className="w-full h-24 mt-10 mb-3 flex text-white">
             <p
                 className="w-4/5 h-full flex justify-start items-center text-2xl font-bold">
                 MORE TOOLS & PRODUCTS

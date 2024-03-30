@@ -10,7 +10,7 @@ export const PaletteItem = ({item}) => {
     }
     const PaletteItemNameWithEmoji = ({name, emoji}) => {
         return (
-            <div className="w-full h-1/5 flex">
+            <div className="w-full h-1/5 flex pt-2">
                 <div className="w-4/5 h-full flex justify-start items-center text-[17px] font-medium">{name}</div>
                 <div className="w-1/5 h-full flex justify-end items-center text-xl">{emoji}</div>
             </div>
@@ -18,10 +18,10 @@ export const PaletteItem = ({item}) => {
     }
     return (
         <div className="w-full h-52 rounded-lg p-2.5 bg-white">
-            <div className="w-full h-full">
+            <a className="w-full h-full" href="/">
                 <PaletteItemColors colors={item.colors}></PaletteItemColors>
                 <PaletteItemNameWithEmoji name={item.paletteName} emoji={item.emoji}></PaletteItemNameWithEmoji>
-            </div>
+            </a>
         </div>
     );
 }

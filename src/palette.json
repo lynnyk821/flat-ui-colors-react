@@ -79,6 +79,10 @@
       {
         "name": "bluegrey",
         "color": "#607D8B"
+      },
+      {
+        "name": "WetAsphalt",
+        "color": "#34495e"
       }
     ]
   },

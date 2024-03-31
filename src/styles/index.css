@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.body{
-  font-family: Barlow, serif;
-}
 
 .palette-bg {
   background: #3c40c6 url(https://flatuicolors.com/static/img/stars-opacity.0979c1.svg);

@@ -1,4 +1,4 @@
-import palettes from "../../../../palette.json";
+import palettes from "../../../../data/palette.json";
 import {PaletteItem} from "./PaletteItem/PaletteItem";
 
 export const Palettes = () => {

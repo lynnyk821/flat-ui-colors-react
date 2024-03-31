@@ -1,6 +1,6 @@
-import {HomeHeader} from "./components/Header/HomeHeader";
-import {HomeBody} from "./components/Body/HomeBody";
-import {HomeFooter} from "./components/Footer/HomeFooter";
+import {HomeHeader} from "../components/Home/Header/HomeHeader";
+import {HomeBody} from "../components/Home/Body/HomeBody";
+import {HomeFooter} from "../components/Home/Footer/HomeFooter";
 
 
 export const Home = () => {

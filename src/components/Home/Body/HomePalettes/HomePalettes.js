@@ -1,5 +1,5 @@
 import palettes from "../../../../data/palette.json";
-import {HomePaletteItem} from "./HomePaletteItem/HomePaletteItem";
+import {HomePaletteItem} from "./HomePaletteItem";
 
 export const HomePalettes = () => {
     return (

@@ -1,5 +1,5 @@
 import palettes from "../../../data/palette.json"
-import {PaletteBodyItems} from "./PaletteBodyItems/PaletteBodyItems";
+import {PaletteBodyItems} from "./PaletteBodyItems";
 import { useParams } from 'react-router-dom';
 
 export const PaletteBody = () => {

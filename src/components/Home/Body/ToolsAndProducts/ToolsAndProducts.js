@@ -1,5 +1,5 @@
-import {ToolsAndProductsHeader} from "./Header/ToolsAndProductsHeader";
-import {ToolsAndProductsBody} from "./Body/ToolsAndProductsBody";
+import {ToolsAndProductsHeader} from "./ToolsAndProductsHeader";
+import {ToolsAndProductsBody} from "./ToolsAndProductsBody";
 
 export const ToolsAndProducts = () => {
     return (

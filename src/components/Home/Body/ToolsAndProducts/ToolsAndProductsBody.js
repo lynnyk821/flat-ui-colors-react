@@ -1,5 +1,5 @@
-import {toolsAndProductsData} from "./toolsAndProductsData";
-import {ToolsAndProductsBodyItem} from "./ToolsAndProductsBodyItem/ToolsAndProductsBodyItem";
+import {toolsAndProductsData} from "./ToolsAndProductItems/toolsAndProductsData";
+import {ToolsAndProductsBodyItem} from "./ToolsAndProductItems/ToolsAndProductsBodyItem";
 
 export const ToolsAndProductsBody = () => {
     return (

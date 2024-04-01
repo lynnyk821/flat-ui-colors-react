@@ -8,7 +8,7 @@ export const PaletteHeader = () => {
                 </a>
             </div>
             <div className="w-1/3 h-full flex justify-center items-center text-white">
-                <button className="w-3/5 h-4/5 rounded-[6px] bg-black">
+                <button className="w-3/5 h-[72%] rounded-[6px] bg-black">
                     Copy Format: RGBA - (1,2,3,0.4)
                 </button>
             </div>

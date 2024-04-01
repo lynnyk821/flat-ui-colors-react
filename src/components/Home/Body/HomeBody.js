@@ -1,10 +1,10 @@
-import {Palettes} from "./Palettes/Palettes";
 import {ToolsAndProducts} from "./ToolsAndProducts/ToolsAndProducts";
+import {HomePalettes} from "./HomePalettes/HomePalettes";
 
 export const HomeBody = () => {
     return (
         <div className="w-[1024px]">
-            <Palettes></Palettes>
+            <HomePalettes></HomePalettes>
             <ToolsAndProducts></ToolsAndProducts>
         </div>
     );

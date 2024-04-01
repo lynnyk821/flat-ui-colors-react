@@ -3,7 +3,6 @@ import {HomeBody} from "../components/Home/Body/HomeBody";
 import {HomeFooter} from "../components/Home/Footer/HomeFooter";
 import {SideBar} from "../components/Sidebar/SideBar";
 
-
 export const Home = () => {
     const HomeContainer = ({children}) => {
         return (

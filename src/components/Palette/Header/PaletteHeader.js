@@ -1,6 +1,6 @@
 export const PaletteHeader = () => {
     return (
-        <div className="w-full h-[6%] px-6 flex font-medium">
+        <header className="w-full h-[6%] px-6 flex font-medium">
             <div className="w-1/3 h-full flex items-center ">
                 <a className="flex items-center gap-1" href={"/"}>
                     <span className="text-[17px] font-normal">←</span>
@@ -17,6 +17,6 @@ export const PaletteHeader = () => {
                     <span>Sound On 🔊</span>
                 </button>
             </div>
-        </div>
+        </header>
     );
 }

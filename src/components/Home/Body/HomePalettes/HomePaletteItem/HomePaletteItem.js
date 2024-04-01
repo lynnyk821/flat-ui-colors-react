@@ -1,4 +1,4 @@
-export const HomePaletteItem = ({item}) => {
+export const HomePaletteItem = ({item, id}) => {
     const BodyPaletteItemColors = ({colors}) => {
         return (
             <div className="w-full h-4/5 grid grid-cols-5">
@@ -18,7 +18,7 @@ export const HomePaletteItem = ({item}) => {
     }
     return (
         <div className="w-full h-52 rounded-lg p-2.5 bg-white">
-            <a className="w-full h-full" href="/palette">
+            <a className="w-full h-full" href={`/palette/${id}`}>
                 <BodyPaletteItemColors colors={item.colors}></BodyPaletteItemColors>
                 <BodyPaletteItemNameWithEmoji name={item.paletteName} emoji={item.emoji}></BodyPaletteItemNameWithEmoji>
             </a>

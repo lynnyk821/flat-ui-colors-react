@@ -14,7 +14,7 @@ export const Palette = () => {
             <SideBar></SideBar>
             <PaletteContainer>
                 <PaletteHeader></PaletteHeader>
-                <PaletteBody></PaletteBody>
+                <PaletteBody id={3}></PaletteBody>
                 <PaletteFooter></PaletteFooter>
             </PaletteContainer>
         </>
